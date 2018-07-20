@@ -307,4 +307,4 @@ If you run the tests at this point, they should fail. Then go back to
 Once your implementation is complete, run `make test`.
 
 - test_adding_person_with_negative_lines_of_code_throws_exception
-- test_handle_duplicate_additions.
+- test_handle_duplicate_additions
