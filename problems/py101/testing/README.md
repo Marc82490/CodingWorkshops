@@ -174,11 +174,11 @@ From the `/problems/py101/testing` directory, run
 
     make
 
-- Which packages got installed?
-- Which version of python is getting used?
-- How many tests pass, skipped and how long did it take?
+- Which packages got installed?  pipenv, virtualenv, pip, certifi, setuptools, virtualenv-clone
+- Which version of python is getting used? 3.5.2
+- How many tests pass, skipped and how long did it take? 7 passed, 3 skipped, 0.34 seconds  
 - Note a new directory `htmlcov` was created. We will revisit this in Exericse 5.
-- What is difference in output when you run the `make` command again?
+- What is difference in output when you run the `make` command again? removed and recreated virtualenv, 5 passed, 5 skipped, 0.13 seconds
 
 ## 1.6. Exercise 2: Run the program
 
@@ -251,7 +251,7 @@ that show you the coverage information about `team_organizr,py` code.
 Open the `index.html` file inside `htmlcov` to check the lines that
 has not been covered by the tests in the `test_team_organizer.py`.
 
-What is the % coverage of the code at this point?
+What is the % coverage of the code at this point?  54%
 Click on `team_organizer.py` to see which lines are outside coverage.
 
 ## 1.9. Exercise 6: Fail, Fix, Pass
